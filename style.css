@@ -1,0 +1,30 @@
+/* Basic container styling */
+.animation-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #fce4ec, #f3e5f5); /* Pastel sky gradient */
+    overflow: hidden;
+  }
+  
+  /* Airplane styling */
+  #airplane {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('https://example.com/airplane.png') no-repeat center/contain; /* Replace with actual airplane image */
+    top: 30%;
+    left: 0;
+  }
+  
+  /* Text styling */
+  #prom-invite {
+    position: absolute;
+    font-family: 'Cursive', sans-serif;
+    color: #ff4081;
+    opacity: 0; /* Starts invisible */
+    top: 50%;
+    left: 10%;
+    font-size: 3rem;
+  }
+  
